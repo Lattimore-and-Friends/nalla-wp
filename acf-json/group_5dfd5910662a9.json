@@ -74,7 +74,7 @@
                             "key": "field_5dfde577cd27c",
                             "label": "Text",
                             "name": "text",
-                            "type": "text",
+                            "type": "textarea",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -85,14 +85,57 @@
                             },
                             "default_value": "",
                             "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": "br"
+                        },
+                        {
+                            "key": "field_5e10b74f67a3a",
+                            "label": "Mobile Text",
+                            "name": "mobile_text",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": "br"
                         },
                         {
                             "key": "field_5dfde568cd27b",
                             "label": "Image",
                             "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5e107669f7646",
+                            "label": "Mobile Image",
+                            "name": "mobile_image",
                             "type": "image",
                             "instructions": "",
                             "required": 0,
@@ -181,5 +224,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1577657867
+    "modified": 1578153833
 }

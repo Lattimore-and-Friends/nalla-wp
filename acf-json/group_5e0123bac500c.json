@@ -52,6 +52,25 @@
                             "maxlength": ""
                         },
                         {
+                            "key": "field_5e1065be69e0e",
+                            "label": "Mobile Small Title",
+                            "name": "mobile_small_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5e0123f5e1296",
                             "label": "Content",
                             "name": "content",
@@ -91,6 +110,25 @@
                             "key": "field_5e012405e1298",
                             "label": "Title",
                             "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e1065e669e0f",
+                            "label": "Mobile Small Title",
+                            "name": "mobile_small_title",
                             "type": "text",
                             "instructions": "",
                             "required": 0,
@@ -162,6 +200,25 @@
                             "maxlength": ""
                         },
                         {
+                            "key": "field_5e10662969e10",
+                            "label": "Mobile Small Title",
+                            "name": "mobile_small_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5e012423e129c",
                             "label": "Content",
                             "name": "content",
@@ -202,5 +259,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1577133101
+    "modified": 1578133047
 }

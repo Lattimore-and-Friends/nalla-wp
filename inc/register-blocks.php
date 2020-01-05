@@ -147,15 +147,6 @@ acf_register_block_type(array(
 ));
 
 acf_register_block_type(array(
-    'name'              => 'two_projects',
-    'title'             => __('Two Projects'),
-    'render_template'   => 'blocks/two-projects.php',
-    'category'          => 'formatting',
-    'icon'              => 'admin-comments',
-    'keywords'          => array( 'content', 'text', 'project'),
-));
-
-acf_register_block_type(array(
     'name'              => 'quote',
     'title'             => __('Quote'),
     'render_template'   => 'blocks/quote.php',

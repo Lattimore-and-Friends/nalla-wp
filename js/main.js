@@ -10,7 +10,8 @@ jQuery(document).ready(function($) {
       {
         breakpoint: 572,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          adaptiveHeight: true
         }
       }
     ]
@@ -21,6 +22,8 @@ jQuery(document).ready(function($) {
     mobileFirst: true,
     slidesToShow: 1.1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
+
     infinite: true,
     responsive: [
       {

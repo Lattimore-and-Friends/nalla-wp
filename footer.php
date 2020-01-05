@@ -28,7 +28,7 @@
 <h3><?php echo $person['name']?></h3>
 <div class="team-member-index__excerpt">
 <h4 class="post-card__title"><?php echo the_title()?></h4>
-<a class="arrow-link"><?php echo the_time('d/m/y')?>
+<a class="arrow-link" href="<?php the_permalink($post)?>"><?php echo the_time('d/m/y')?>
    <img class="svg-arrow" src="<?php echo get_template_directory_uri(); ?>/assets/images/Button.png">
    </svg>
 </a>

@@ -12,7 +12,8 @@
         <div class="container">
             <?php if ($services) {?>
                 <?php foreach ($services as $service) {?>
-        <div class="accordion-block-section accordion-block-section--photoshop"><h2><?php echo $service['category']?></h2>
+        <div class="accordion-block-section accordion-block-section--photoshop">
+            <h2><?php echo $service['category']?></h2>
 <div class="accordion-block-section__content">
     <div class="accordion-block-section__content-main">
         <h3 class="p1">
