@@ -1,6 +1,6 @@
 <div class=" banner  flexible-block--remove-padding-top banner--video-wide banner--white banner--text-white banner--video banner--content-v-bottom banner--content-h-left">
         <div>
-<div class="<?php echo get_field('hero_section')['width']?><?php if (is_front_page()){?>hero <?php }?>">
+<div class="<?php echo get_field('hero_section')['width']?><?php if (is_front_page()){?> hero <?php }?>">
         <?php $type = get_field('hero_section')['media_type']?>
         <?php $images = get_field('hero_section')['hero_carousel']?>
 

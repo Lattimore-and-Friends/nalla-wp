@@ -1,11 +1,5 @@
 <?php $top = get_field('top_post_content');
-// Get the taxonomy's terms
-$services = get_terms(
-    array(
-        'taxonomy'   => 'service', 'industry',
-        'hide_empty' => true,
-    ), $args
-);
+
 
 
 
@@ -14,20 +8,11 @@ $services = get_terms(
         <div class="project-intro">
             <div class="project-container">
                 <div class="taxonomy-list">
-                <h4>
-               <?php  // Check if any term exists
-if ( ! empty( $services ) && is_array( $services ) ) {
-    // Run a loop and print them all
-    foreach ( $services as $term ) { ?>
-     <span>   <a href="<?php echo esc_url( get_term_link( $term ) ) ?>">
-            <?php echo $term->name; ?>
-        </a></span><?php
-    }
-} ?>
+                <?php echo get_the_term_list( $post->ID, 'service', '<h4>', ' . ', ' .  </h4>' ) ?>
+                <?php echo get_the_term_list( $post->ID, 'industry', '<h4>', ' . ', '</h4>' ) ?>
 
 
-             
-</h4></div>
+   </div>
                 <h1><?php echo $top['title']?></h1>
                 <div class="project-intro-copy">
                     <h3 class="p1">

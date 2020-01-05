@@ -8,7 +8,7 @@
 </div>
 <?php if($list) {?>
     <div class="footer-content" >
-<div class="footer-list">
+<div class="footer-list container-lg">
 <?php foreach($list as $lists) {?>
    <li> <img src="<?php echo get_template_directory_uri();?>/assets/images/checkmark.png"/><p><?php echo $lists['list_content']?></p></li>
 <?php }?>

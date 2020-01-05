@@ -41,9 +41,7 @@ echo strip_tags(wp_nav_menu( $defaults ), '<a>' );
 
 </div></div>
 
-  <div>
-       
-    </div>
+  
 </div>
         <div class="container-project">
         <?php $projects = get_field('all_projects')['projects']?>
@@ -60,7 +58,6 @@ echo strip_tags(wp_nav_menu( $defaults ), '<a>' );
             <img  src="<?php echo get_the_post_thumbnail($post)?>">
         </picture>
     <div class="project-index__content">
-   <p class="project-subject"> <?php echo get_the_term_list( $post->ID, 'service', '<span>', ' ' ,'</span>' ) ?></p>
 
 
    <?php   $blocks = parse_blocks( $post->post_content ); 

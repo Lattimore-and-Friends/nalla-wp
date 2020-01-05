@@ -144,7 +144,15 @@
                             "type": "image",
                             "instructions": "",
                             "required": 0,
-                            "conditional_logic": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5e1216b30a124",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
                             "wrapper": {
                                 "width": "",
                                 "class": "",
@@ -158,6 +166,52 @@
                             "min_size": "",
                             "max_width": "",
                             "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5e1216b30a124",
+                            "label": "Media Type",
+                            "name": "media_type",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Would you like to add a video?",
+                            "default_value": 0,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e1216c80a125",
+                            "label": "Video",
+                            "name": "video",
+                            "type": "file",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5e1216b30a124",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_size": "",
                             "max_size": "",
                             "mime_types": ""
                         },
@@ -217,5 +271,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1577727585
+    "modified": 1578243946
 }

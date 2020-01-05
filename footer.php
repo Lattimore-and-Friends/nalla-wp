@@ -15,7 +15,7 @@
    
 <div class="container">
 <h4><?php echo get_field('footer_title', 'option')?></h4>
-<div class="team-block__inner">
+<div class="team-block__inner ">
 <?php foreach ($posts as $post) {?>
 <?php setup_postdata($post); ?>      
 

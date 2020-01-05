@@ -14,11 +14,21 @@
     <div  class="flexible-block parallax-block parallax-block--image-<?php echo $contents['flip']?>">
         <div class="container">
     <div class="parallax-block__inner">
+    <?php if (!$contents['media_type']) {?>
+
         <div class="parallax-block__image">
                 <img src="<?php echo $contents['image']?>" alt="Image Example" 
                    sizes="(min-width:720px) calc(65% - 40px), calc(100% - 40px)">
-        </div><!-- Comment so that there's no spacing between these two elements
-     --><div  class="parallax-block__text parallax-element">
+        </div><!-- Comment so that there's no spacing between these two elements -->
+    <?php }?>
+    <?php if($contents['media_type']) {?>
+            <div class="parallax-block__image">
+            <video autoplay muted loop preload playsinline controlslist="nodownload" style="width: 100%">
+                    <source src="<?php echo $contents['video']?>" type="video/mp4">
+            </video>
+</div>
+         <?php }?>
+     <div  class="parallax-block__text parallax-element">
             <div class="parallax-block__text-inner">
                 <h1><?php echo $contents['title']?></h1>
                 <h3 class="p1"><span class="s1"><?php echo $contents['name']?></span></h3>
@@ -27,6 +37,7 @@
     <span class="s1"><?php echo $contents['content']?></span></p>
     
 </div>
+
 </div>    </div>
 </div></div>
 
