@@ -91,6 +91,8 @@
   wp_enqueue_script( 'mainJS', get_template_directory_uri() . '/js/main.js', array('jquery'), '', true);
   wp_enqueue_script( 'jqueryJS', get_template_directory_uri() . '/js/jquery.js', array('jquery'), '', true);
   wp_enqueue_script( 'paraJS', get_template_directory_uri() . '/js/jquery.parallax.js', array('jquery'), '', true);
+  wp_enqueue_script( 'scrollJS', 'https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js', array('jquery'), '', true);
+
 
 
 
@@ -169,4 +171,12 @@ require get_template_directory() . '/inc/custom-posts.php';
 /**
 * Load Custom Taxonomies file
 */
+
 require get_template_directory() . '/inc/custom-taxonomies.php';
+
+
+/**
+ * Theme Login Appearance
+ */
+
+require get_template_directory() . '/inc/theme-appearance.php';

@@ -37,3 +37,41 @@ function rre_theme_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'rre_theme_pingback_header' );
+
+
+ // Remove the default gutenberg block
+  // https://rudrastyh.com/gutenberg/remove-default-blocks.html
+
+  add_filter('allowed_block_types', 'nassa_allowed_block_types');
+
+  function nassa_allowed_block_types($allowed_blocks)
+  {
+
+     return array(
+
+        'acf/all-projects',
+        'acf/awards',
+        'acf/client-logos',
+        'acf/contact',
+        'acf/credits',
+        'acf/extended-footer',
+        'acf/flexible-content',
+        'acf/hero-section',
+        'acf/image-and-content',
+        'acf/image-side-content',
+		'acf/launch-graph',
+		'acf/one-column-content',
+		'acf/quote',
+		'acf/recent-projects',
+		'acf/related-content',
+		'acf/services',
+		'acf/stats',
+		'acf/team',
+		'acf/three-column-content',
+		'acf/three-column-text-content',
+		'acf/title-and-content',
+		'acf/top-post-content',
+		'acf/two-column-content'
+
+     );
+  }

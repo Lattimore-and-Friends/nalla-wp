@@ -16,9 +16,11 @@
 <?php } ?>
 
 <div class="footer-roles">
+    <div class="footer-role-container">
 <p class="name"><?php echo $footer['contact_name'] ?></p>
 
 <p class="roles"><?php echo $footer['role']?></p>
+</div>
 <a class="button button--yellow-pencil" href="<?php echo $footer['button']['link']?>"><?php echo $footer['button']['title']?></a>
 </div>
 </div>

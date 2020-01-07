@@ -2,7 +2,10 @@
 <?php $button = $gallery['button']?>
 <?php $images = $gallery['logos']?>
 <?php $color = $gallery['background_color']?>
-    <div class="logo-container" style="background-color: <?php echo $color?>">
+<div class="logos"  style="background-color: <?php echo $color?>">
+    <div class="container">
+        <div class="logo-flex-container">
+        <div class="logo-container">
         <?php if ($images) {?>
             <?php foreach ($images as $logo) {?>
         <div class="logo-images">
@@ -11,8 +14,13 @@
         </div>
             <?php }?>
         <?php }?>
-        <div class="project-button">
+       
+</div>
+<div class="project-button">
          <a href="<?php echo $button['link']?>" class="button button--white"><?php echo $button['title']?></a>
             </div>
-</div>
+            </div>
 
+</div>
+            </div>
+            </div>

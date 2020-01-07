@@ -1,17 +1,19 @@
 <?php $stats = get_field('stats')?>
 
-<div class="flexible-block title-block--default">
-        <div>
+        
         <div class="container">
+            <div class="stats-container">
+
+        <div class="flexible-block title-block--default">
+
             <h2><?php echo $stats['title']?></h2>
                 <div class="title-block__content">
                 <p><?php echo $stats['sub_title']?></p>
-</div>
+                </div>
         </div>
-    </div>
-</div>
-<?php $percentage = get_field('stats')['prefix']?>
-<div class="flexible-block stat-block">
+<?php $percentage = get_field('stats')['prefix']?> 
+
+<div class="flexible-block stat-block container">
     <div class="container-project stat-container">
         <div class="stat-block-stat stat-block-stat--dark-grey">
             <div class="stat-block-stat__figure"><?php echo $percentage['percentage']?>
@@ -46,4 +48,6 @@
 </div>
 </div>
 
+</div>
+</div>
 </div>

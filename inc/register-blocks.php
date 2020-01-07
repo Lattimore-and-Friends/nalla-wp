@@ -9,6 +9,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/hero-section.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'hero', 'images', 'carousel' ),
 ));
 
@@ -18,6 +19,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/page-hero.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'hero', 'images', 'carousel' ),
 ));
 
@@ -27,6 +29,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/title-and-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'content', 'images', 'text' ),
 ));
 
@@ -36,6 +39,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/three-column-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'content', 'images', 'text' ),
 ));
 
@@ -45,6 +49,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/recent-projects.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'content', 'posts', 'text', 'projects' ),
 ));
 
@@ -54,6 +59,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/client-logos.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'content', 'posts', 'images', 'projects' ),
 ));
 
@@ -63,6 +69,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/stats.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'content', 'posts', 'numbers', 'stats' ),
 ));
 acf_register_block_type(array(
@@ -71,6 +78,7 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/extended-footer.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
     'keywords'          => array( 'footer'),
 ));
 
@@ -80,6 +88,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/two-column-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content'),
 ));
 
@@ -89,6 +99,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/services.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content'),
 ));
 
@@ -98,6 +110,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/image-side-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content'),
 ));
 
@@ -107,6 +121,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/one-column-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content'),
 ));
 
@@ -116,6 +132,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/launch-graph.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content'),
 ));
 
@@ -125,17 +143,11 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/three-column-text-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'three'),
 ));
 
-acf_register_block_type(array(
-    'name'              => 'single_recent_post',
-    'title'             => __('Single Recent Post'),
-    'render_template'   => 'blocks/single-recent-post.php',
-    'category'          => 'formatting',
-    'icon'              => 'admin-comments',
-    'keywords'          => array( 'content', 'text'),
-));
 
 acf_register_block_type(array(
     'name'              => 'flexible_content',
@@ -143,6 +155,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/flexible-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text'),
 ));
 
@@ -152,6 +166,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/quote.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project'),
 ));
 
@@ -161,6 +177,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/contact.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project'),
 ));
 
@@ -170,6 +188,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/top-post-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project', 'post'),
 ));
 
@@ -179,6 +199,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/image-and-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project', 'post', 'image'),
 ));
 
@@ -188,6 +210,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/credits.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project', 'post', 'credits'),
 ));
 
@@ -197,6 +221,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/related-content.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project', 'post', 'credits'),
 ));
 
@@ -206,6 +232,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/awards.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'award'),
 ));
 
@@ -215,6 +243,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/all-projects.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'project'),
 ));
 
@@ -224,6 +254,8 @@ acf_register_block_type(array(
     'render_template'   => 'blocks/team.php',
     'category'          => 'formatting',
     'icon'              => 'admin-comments',
+    'mode' 	            => 'edit',
+
     'keywords'          => array( 'content', 'text', 'team', 'people'),
 ));
 
